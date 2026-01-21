@@ -84,7 +84,7 @@ def parse_args():
     parser.add_argument(
         "--zip",
         help="Whether to bundle the theme into a zip",
-        type=bool,
+        #type=bool,
         default=False,
         action=argparse.BooleanOptionalAction,
     )
@@ -92,7 +92,7 @@ def parse_args():
     parser.add_argument(
         "--patch",
         help="Whether to patch the colloid submodule",
-        type=bool,
+        #type=bool,
         default=True,
         action=argparse.BooleanOptionalAction,
     )
