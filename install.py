@@ -98,7 +98,7 @@ def parse_args():
 
 def build_release_url(ctx: InstallContext) -> str:
     repo_root = "https://github.com/VanillaDaFur/catppuccin-gtk/releases/download"
-    release = "1.0.6"  # x-release-please-version
+    release = "1.0.7"  # x-release-please-version
     zip_name = f"catppuccin-{ctx.flavor}-{ctx.accent}-standard+default.zip"
 
     return f"{repo_root}/{release}/{zip_name}"
